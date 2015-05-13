@@ -21,7 +21,30 @@ namespace Lab1
             StudentNameConf.Text = NameTextBox.Text;
             PasswordConfLabel.Visible = true;
             PasswordConf.Text = PasswordTextBox.Text;
-            
+            AddressConfLabel.Visible = true;
+            AddressConf.Text = AddressTextBox.Text;
+            EducationConfLabel.Visible = true;
+            EducationConf.Text = EducationRadioButtons.SelectedValue;
+            LapTopConfLabel.Visible = true;
+            if (LapTopCheckBox.Checked == true)
+            {
+                LapTopConf.Text = "Yes";
+            }
+            else
+            {
+                LapTopConf.Text = "No";
+            }
+            SkillsConfLabel.Visible = true;
+            foreach (ListItem skills in SkillsList.Items)
+            {
+                if (skills.Selected)
+                {
+                    SkillsConf.Text += skills.Text += " ";
+                }
+
+            }
+            ProvincesConfLabel.Visible = true;
+            ProvincesConf.Text = ProvinceCheckBoxList.SelectedItem.Text;
         }
     }
 }

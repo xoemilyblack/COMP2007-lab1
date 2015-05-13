@@ -67,13 +67,13 @@ namespace Lab1 {
         protected global::System.Web.UI.WebControls.Label AddressLabel;
         
         /// <summary>
-        /// TextBox1 control.
+        /// AddressTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox AddressTextBox;
         
         /// <summary>
         /// EducationLabel control.
@@ -85,13 +85,13 @@ namespace Lab1 {
         protected global::System.Web.UI.WebControls.Label EducationLabel;
         
         /// <summary>
-        /// RadioButtonList1 control.
+        /// EducationRadioButtons control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList1;
+        protected global::System.Web.UI.WebControls.RadioButtonList EducationRadioButtons;
         
         /// <summary>
         /// CheckBoxLabel control.
@@ -121,22 +121,31 @@ namespace Lab1 {
         protected global::System.Web.UI.WebControls.Label SkillsLabel;
         
         /// <summary>
-        /// CheckBoxList1 control.
+        /// SkillsList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList CheckBoxList1;
+        protected global::System.Web.UI.WebControls.CheckBoxList SkillsList;
         
         /// <summary>
-        /// DropDownList1 control.
+        /// ProvincesLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.Label ProvincesLabel;
+        
+        /// <summary>
+        /// ProvinceCheckBoxList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ProvinceCheckBoxList;
         
         /// <summary>
         /// SubmitButton control.
@@ -191,5 +200,95 @@ namespace Lab1 {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label PasswordConf;
+        
+        /// <summary>
+        /// AddressConfLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label AddressConfLabel;
+        
+        /// <summary>
+        /// AddressConf control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label AddressConf;
+        
+        /// <summary>
+        /// EducationConfLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label EducationConfLabel;
+        
+        /// <summary>
+        /// EducationConf control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label EducationConf;
+        
+        /// <summary>
+        /// LapTopConfLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LapTopConfLabel;
+        
+        /// <summary>
+        /// LapTopConf control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LapTopConf;
+        
+        /// <summary>
+        /// SkillsConfLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SkillsConfLabel;
+        
+        /// <summary>
+        /// SkillsConf control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label SkillsConf;
+        
+        /// <summary>
+        /// ProvincesConfLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ProvincesConfLabel;
+        
+        /// <summary>
+        /// ProvincesConf control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ProvincesConf;
     }
 }
